@@ -81,11 +81,10 @@
     </div>
     <div class="muscle-m">
       <h4>趣味 丰富 激励</h4>
-      <p class="text">多款游戏增加运动的乐趣；和全国各地的爱好者一起挑战，健身内容更丰富；实时追踪运动记录，不断激励自己。</p>
+      <p class="text">
+        多款游戏增加运动的乐趣；和全国各地的爱好者一起挑战，健身内容更丰富；实时追踪运动记录，不断激励自己。
+      </p>
       <p class="text-2">——《HEALTH》杂志</p>
-    </div>
-    <div class="iphone-game">
-        
     </div>
   </div>
 </template>
@@ -99,7 +98,6 @@ export default {
 <style lang="less" scoped>
 @import "@/assets/css/pcstyle.css";
 .muscle {
-  //   overflow:hidden;
   position: relative;
   .footer-nav {
     //   width: 1120px;
@@ -263,7 +261,7 @@ export default {
       box-sizing: border-box;
       img {
         width: 100%;
-        height:100%;
+        height: 100%;
       }
     }
   }
